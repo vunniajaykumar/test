@@ -1,0 +1,32 @@
+<------------------------- READ ME ------------------------->
+
+Problem Statement:
+
+-> It’s year 1945 and the Soviet forces need a network for co-ordinating on the war effort.
+ 
+   We are tasked with creating an app which can aid the Sovient forces to oust the Axis power from their motherland.
+
+   You are the Lead engineer selected to design and develop this application.
+
+Feature description:
+
+1. Signup : user should be able to provide username which is unique
+	    (username can be associated with single user, or different users should have different usernames) and a password.
+
+2. Login  : error messages may be displayed on incorrect username/passwordentry.
+
+3. Home   : Only logged in or authenticated users can access the home page User can click on the send-message at the header to visit the message page.
+	    User can view the messages from other users, load-more at the bottom of page is for ‘pagination‘ (optional).
+
+4. Message :The message submitted by the user should appear in the home page, with the content, time and username.
+
+5. Logout : Logout the user.
+
+Stack details:
+
+1. Server : Use python, frameworks recommended are Django or Flask The server just exposes API to communicate with UI.
+
+2. UI: UI is a client side rendering for this task and not server side rendering. Use html5, jquery and bootstrap css.
+
+3. Database : Mysql is the preferred database of choice.
+

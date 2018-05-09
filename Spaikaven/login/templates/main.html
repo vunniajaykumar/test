@@ -1,0 +1,19 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width , initial-scale = 1" />
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" href="{% static '/css/bootstrap.css' %}" />
+        <link rel="stylesheet" href="{% static '/css/mystyles.css' %}" />
+    </head>
+    <body>
+    {% block body %}
+    {% endblock %}
+    </body>
+    <script type="text/javascript" src="{% static '/js/jquery.js' %}"></script>
+    <script type="text/javascript" src="{% static '/js/bootstrap.js' %}" ></script>
+</html>
+

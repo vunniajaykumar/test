@@ -1,0 +1,76 @@
+.custom_body{
+    border-color: black;
+    border-style: outset;
+    padding: 1em;
+}
+.custom_row{
+    border-color: black;
+    border-style: solid;
+    border-width: 0.1em;
+    margin-bottom: 1em;
+    padding: 0.5em 1em 0.5em 1em ;
+}
+
+.form-group{
+    border: 1px solid;
+    margin: 6em auto;
+    padding: 1em;
+    max-width: 960px;
+}
+
+.form-group input{
+    margin: auto;
+    display: block;
+}
+
+.form-group label{
+    margin-left: -7.5em;
+}
+.form-group label[for=id_password2]{
+    margin-left: -1em;
+}
+
+form label[for=id_message]{
+    display: none;
+}
+
+form textarea[id=id_message]{
+    width: 66%;
+    margin-left: 5.5%;
+}
+
+.helptext{
+    display: none;
+}
+
+.errorlist{
+    list-style: none;
+}
+
+.errorlist li{
+    color: red;
+    padding: 1em;
+}
+
+.head{
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.msg_body{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.sender{
+    font-size: 2em;
+}
+
+.date{
+    font-size: 1.2em;
+    text-align: right;
+}
+
+.msg{
+    font-size: 1.5em;
+}
